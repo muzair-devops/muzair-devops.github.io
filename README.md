@@ -69,12 +69,12 @@
           <h2>Experience</h2>
           <article class="role">
             <div>
-              <h3>DevOps Trainee – ABC Tech</h3>
+              <h3>Full Stack Developer – Tech Apps Solutions/h3>
               <div class="meta">Lahore, PK • Jun 2023 – Dec 2023</div>
               <ul>
-                <li>Automated image builds, tagging, and vulnerability checks with Trivy in CI.</li>
-                <li>Wrote Bash/Python scripts for backups and log rotation on Linux servers.</li>
-                <li>Created staging environments on <strong>AWS</strong> (EC2, S3, RDS) and documented runbooks.</li>
+                <li>Developed responsive and scalable web applications using React and Next.js.</li>
+                <li>Designed REST APIs using Node JS (Express/Nest JS).</li>
+                <li>Created and optimized PostgreSQL queries.</li>
               </ul>
             </div>
             <div class="meta">Internship</div>
@@ -87,15 +87,13 @@
         <div class="section">
           <h2>Core Skills</h2>
           <ul>
-            <li>CI/CD: GitHub Actions, Jenkins</li>
+            <li>CI/CD: GitHub Actions</li>
             <li>Containers: Docker, Docker Compose</li>
-            <li>Orchestration: Kubernetes (EKS), Helm basics</li>
-            <li>Cloud: AWS (EC2, ECR, EKS, RDS, S3, IAM)</li>
-            <li>IaC: Terraform, basics of Ansible</li>
-            <li>OS & Scripting: Linux, Bash, Python</li>
-            <li>Networking & Security: VPC, SG/NACL, TLS, IAM</li>
-            <li>Monitoring/Logging: Prometheus, Grafana, CloudWatch, ELK basics</li>
-            <li>VCS: Git, GitHub Flow</li>
+            <li>Frontend: React, TypeScript, Next.js</li>
+            <li>Backend: Python, Node JS (Express/Nest JS)</li>
+            <li>Database: MongoDB, PostgreSQL</li>
+            <li>Tools: Git, GitHub</li>
+            <li>Methodology: Agile, Lean</li>
           </ul>
         </div>
 
