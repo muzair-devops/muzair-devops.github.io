@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Uzair - DevOps Engineer</title>
+  <style>
+    :root{--fg:#111827;--muted:#4b5563;--accent:#2563eb;--bg:#ffffff;--chip:#eef2ff;}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;line-height:1.5;margin:0;background:var(--bg);color:var(--fg);}
+    .page{max-width:900px;margin:32px auto;padding:28px 24px;border:1px solid #e5e7eb;border-radius:16px}
+    h1,h2,h3{margin:0 0 8px 0}
+    h1{font-size:2rem}
+    h2{font-size:1.15rem;letter-spacing:.2px;text-transform:uppercase;color:var(--muted);margin-top:20px}
+    .top{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start;justify-content:space-between}
+    .name-title{flex:1 1 420px}
+    .contact{flex:1 1 260px;color:var(--muted);font-size:.95rem}
+    .contact a{color:var(--accent);text-decoration:none}
+    .summary{margin-top:6px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .chip{background:var(--chip);color:#1f2937;border:1px solid #c7d2fe;padding:4px 10px;border-radius:9999px;font-size:.85rem}
+    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;margin-top:10px}
+    .section{margin-bottom:14px}
+    ul{margin:6px 0 0 18px;padding:0}
+    li{margin-bottom:6px}
+    .role{display:flex;justify-content:space-between;gap:12px}
+    .role h3{font-size:1.05rem}
+    .meta{color:var(--muted);font-size:.92rem}
+    .divider{height:1px;background:#e5e7eb;margin:18px 0}
+    @media print{
+      .page{border:none;margin:0;padding:0}
+      a{color:inherit;text-decoration:none}
+    }
+  </style>
+</head>
+<body>
+  <main class="page" role="main">
+    <header class="top">
+      <div class="name-title">
+        <h1>Muhammad Uzair</h1>
+        <div class="summary">
+          Detail-oriented DevOps Engineer experience in CI/CD pipelines, cloud deployment, and automation. Skilled in Linux, containerization, and infrastructure monitoring. Passionate about optimizing workflows and delivering scalable solutions.
+        </div>
+        <div class="chips">
+          <span class="chip">CI/CD</span>
+          <span class="chip">Docker</span>
+          <span class="chip">Kubernetes</span>
+          <span class="chip">AWS</span>
+          <span class="chip">Linux</span>
+          <span class="chip">Terraform</span>
+          <span class="chip">GitHub Actions</span>
+          <span class="chip">Monitoring</span>
+        </div>
+      </div>
+      <div class="contact" aria-label="contact">
+        📍 Pakistan<br/>
+        📞 +92 342 2487608<br/>
+        ✉️ <a href="mailto:ali.khan@example.com">uzair_live@proton.me</a><br/>
+        🔗 <a href="https://linkedin.com/in/muhammad-uzair-304813381" target="_blank" rel="noreferrer">linkedin.com/in/muhammad-uzair-304813381</a><br/>
+        💻 <a href="https://github.com/muzair-devops" target="_blank" rel="noreferrer">github.com/muzair-devops</a>
+      </div>
+    </header>
+
+    <div class="divider"></div>
+
+    <div class="grid">
+      <section class="left">
+        <div class="section">
+          <h2>Experience</h2>
+          <article class="role">
+            <div>
+              <h3>DevOps Trainee – ABC Tech</h3>
+              <div class="meta">Lahore, PK • Jun 2023 – Dec 2023</div>
+              <ul>
+                <li>Automated image builds, tagging, and vulnerability checks with Trivy in CI.</li>
+                <li>Wrote Bash/Python scripts for backups and log rotation on Linux servers.</li>
+                <li>Created staging environments on <strong>AWS</strong> (EC2, S3, RDS) and documented runbooks.</li>
+              </ul>
+            </div>
+            <div class="meta">Internship</div>
+          </article>
+        </div>
+
+      </section>
+
+      <section class="right">
+        <div class="section">
+          <h2>Core Skills</h2>
+          <ul>
+            <li>CI/CD: GitHub Actions, Jenkins</li>
+            <li>Containers: Docker, Docker Compose</li>
+            <li>Orchestration: Kubernetes (EKS), Helm basics</li>
+            <li>Cloud: AWS (EC2, ECR, EKS, RDS, S3, IAM)</li>
+            <li>IaC: Terraform, basics of Ansible</li>
+            <li>OS & Scripting: Linux, Bash, Python</li>
+            <li>Networking & Security: VPC, SG/NACL, TLS, IAM</li>
+            <li>Monitoring/Logging: Prometheus, Grafana, CloudWatch, ELK basics</li>
+            <li>VCS: Git, GitHub Flow</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Education</h2>
+          <div class="meta"><strong>BS Computer Science</strong> — Federal Urdu University of Arts, Science & Technology</div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+</body>
+</html>
